@@ -1,73 +1,123 @@
-/*CLASES REUTILIZABLES*/
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+html{
+  font-family: 'Raleway', sans-serif;
 }
 
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-}
-
-img {
-  vertical-align: middle;
-}
-
-.container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
-}
-
-.container:before, .container:after {
-  content: " ";
-  display: table;
-}
-
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.container:after {
-  clear: both;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
-a {
-  color: #373B47;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #E95853;
-}
-
-.text-uppercase {
+.encabezado a{
+  padding-left: 10%;
   text-transform: uppercase;
+  font-size: 15px;
+  color: #292d36;
+  font-weight: bold; /*Texto en negrita*/
+}
+.work{
+  margin-left: -80px; /*Espacio entre palabras*/
+  margin-right: -80px;
 }
 
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header{
+  position: fixed;
+  background: white;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 40px;
+}
 
+.encabezado img{
+position: absolute;
+top: 15%;
+left: 83%;
+width: 70px; height: 70px;
+}
+
+.box_1{
+text-align: center;
+}
+
+.box_1 img{
+  position: relative;
+  top: 100px;
+  left: -8px;
+  width: 1280px;
+}
+
+.box_2{ /*Rosa*/
+  text-align: center;
+  color: white;
+  background: #f17c72;
+  height: 600px;
+  width: 1280px;
+  margin-left: -8px;
+}
+
+.box_2 h1{
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 200%;
+  padding-top: 40px;
+}
+
+.box_2 img{
+  width: 200px;
+  top: 50px;
+}
+
+.interface {
+  display: inline-block;
+  margin-top: 100px;
+}
+.concept{
+  display: inline-block;
+  margin-left: 100px; /*Espacio entre palabras*/
+  margin-right: 100px;
+}
+.desing{
+  display: inline-block;
+}
+
+.box_3{
+  text-align: center;
+  background: white;
+  width: 1280px;
+  height: 1100px;
+}
+.box_3 img{ /*Mac*/
+  position: relative;
+  top: 100px;
+  left: -8px;
+  width: 900px;
+}
+
+.imagePro{
+  color: #292d36;
+  text-align: center;
+}
+
+.imagePro img{
+  width: 300px;
+}
+
+.pack_1{
+  display: inline-block;
+}
+.pack_2{
+  display: inline-block;
+}
+.pack_3{
+  display: inline-block;
+}
+.pack_4{
+  display: inline-block;
+}
+
+
+
+
+footer{
+  text-align: center;
+  color: white;
+  background: #373b47;
+  padding: 10px;
+
+
+}
