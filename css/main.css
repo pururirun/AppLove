@@ -21,6 +21,7 @@ header{
   left:0;
   width: 100%;
   padding: 40px;
+  z-index: 1;
 }
 
 .encabezado img{
@@ -34,11 +35,31 @@ width: 70px; height: 70px;
 text-align: center;
 }
 
+
+
 .box_1 img{
   position: relative;
   top: 100px;
   left: -8px;
   width: 1280px;
+  z-index: -1;
+}
+.texto1{
+  position: absolute;
+  top: 190px;
+  margin: 0 0 50px 240px;
+  color: white;
+  /*margin-top: -200px;*/
+}
+.texto1 h1{
+  font-size: 50px;
+}
+
+.botoncito{
+  background: #2ecc71;
+  padding: 10px;
+  display: inline-block;
+
 }
 
 .box_2{ /*Rosa*/
@@ -64,8 +85,9 @@ text-align: center;
 
 .interface {
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 50px;
 }
+
 .concept{
   display: inline-block;
   margin-left: 100px; /*Espacio entre palabras*/
@@ -83,9 +105,13 @@ text-align: center;
 }
 .box_3 img{ /*Mac*/
   position: relative;
-  top: 100px;
+  top: 60px;
   left: -8px;
   width: 900px;
+}
+
+.box_3 h2{
+  font-size: 40px;
 }
 
 .imagePro{
@@ -99,15 +125,19 @@ text-align: center;
 
 .pack_1{
   display: inline-block;
+  column-count: 3;
 }
 .pack_2{
   display: inline-block;
+  column-count: 3;
 }
 .pack_3{
   display: inline-block;
+  column-count: 3;
 }
 .pack_4{
   display: inline-block;
+  column-count: 3;
 }
 
 
